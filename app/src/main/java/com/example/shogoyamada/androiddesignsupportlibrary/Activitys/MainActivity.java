@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         navigationview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                next(NavigationViewActivity.class);
             }
         });
     }
