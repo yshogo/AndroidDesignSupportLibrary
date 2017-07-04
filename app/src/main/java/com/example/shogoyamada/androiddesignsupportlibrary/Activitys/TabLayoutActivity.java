@@ -17,8 +17,24 @@ public class TabLayoutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tab_layout);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        tabLayout.setTabGravity(TabLayout.GRAVITY_CENTER);
+        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
         tabLayout.addTab(tabLayout.newTab().setText("tab 1"));
         tabLayout.addTab(tabLayout.newTab().setText("tab 2"));
         tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("tab 3"));
+
     }
 }
