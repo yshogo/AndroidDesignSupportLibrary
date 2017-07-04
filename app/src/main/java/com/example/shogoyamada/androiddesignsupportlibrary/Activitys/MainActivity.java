@@ -20,9 +20,23 @@ public class MainActivity extends AppCompatActivity {
         tablayoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, TabLayoutActivity.class);
-                startActivity(intent);
+
+                next(TabLayoutActivity.class);
             }
         });
+
+        Button navigationview = (Button) findViewById(R.id.navigation_view);
+        navigationview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+    }
+
+
+    private void next(Class<? extends AppCompatActivity> clazz){
+        Intent intent = new Intent(this, clazz);
+        startActivity(intent);
     }
 }
