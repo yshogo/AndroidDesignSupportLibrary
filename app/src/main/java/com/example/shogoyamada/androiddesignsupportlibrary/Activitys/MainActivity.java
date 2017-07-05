@@ -17,28 +17,18 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button tablayoutButton = (Button) findViewById(R.id.tab_layout);
-        tablayoutButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                next(TabLayoutActivity.class);
-            }
+        tablayoutButton.setOnClickListener((View v) -> {
+            next(TabLayoutActivity.class);
         });
 
         Button navigationview = (Button) findViewById(R.id.navigation_view);
-        navigationview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                next(NavigationViewActivity.class);
-            }
+        navigationview.setOnClickListener((View v) -> {
+            next(NavigationViewActivity.class);
         });
 
         Button textInputLayput = (Button) findViewById(R.id.text_input_layout);
-        textInputLayput.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                next(TextInputLayoutActivity.class);
-            }
+        textInputLayput.setOnClickListener((View v) -> {
+            next(TextInputLayoutActivity.class);
         });
     }
 
