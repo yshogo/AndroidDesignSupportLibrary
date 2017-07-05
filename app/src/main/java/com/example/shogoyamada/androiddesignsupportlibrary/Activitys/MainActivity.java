@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * 画面遷移する
+     * @param clazz 遷移先クラス
+     */
     private void next(Class<? extends AppCompatActivity> clazz){
         Intent intent = new Intent(this, clazz);
         startActivity(intent);
