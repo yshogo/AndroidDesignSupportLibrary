@@ -8,17 +8,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <android.support.design.widget.TextInputLayout
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context="com.example.shogoyamada.androiddesignsupportlibrary.Activitys.TextInputLayoutActivity"
-            >
+            tools:context="com.example.shogoyamada.androiddesignsupportlibrary.Activitys.TextInputLayoutActivity">
 
             <EditText
-                android:id="@+id/name"
+                android:id="@+id/name_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="名前を入力しましょう" />
@@ -27,8 +26,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context="com.example.shogoyamada.androiddesignsupportlibrary.Activitys.TextInputLayoutActivity"
-            >
+            tools:context="com.example.shogoyamada.androiddesignsupportlibrary.Activitys.TextInputLayoutActivity">
 
             <EditText
                 android:id="@+id/email"
@@ -38,6 +36,14 @@
 
         </android.support.design.widget.TextInputLayout>
 
+        <Button
+            android:id="@+id/error_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="エラーメッセージの表示"
+            />
     </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
