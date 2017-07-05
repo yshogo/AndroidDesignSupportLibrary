@@ -18,9 +18,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
-/**
- * Created by shogo.yamada on 2017/07/05.
- */
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class MainActivityTest {
