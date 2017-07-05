@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Android Design Support Library</string>
     <string name="title_activity_navigation_view">NavigationVIew</string>
+    <string name="title_activity_text_input_layout">TextInputLayoutActivity</string>
 </resources>

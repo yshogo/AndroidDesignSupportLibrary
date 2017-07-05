@@ -17,9 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activitys.TabLayoutActivity" />
-        <activity android:name=".Activitys.NavigationViewActivity"></activity>
-
-
+        <activity android:name=".Activitys.NavigationViewActivity" />
+        <activity android:name=".Activitys.TextInputLayoutActivity" ></activity>
     </application>
 
 </manifest>
