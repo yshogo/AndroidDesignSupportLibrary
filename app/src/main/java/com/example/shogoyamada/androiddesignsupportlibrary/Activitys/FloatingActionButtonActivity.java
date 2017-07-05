@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.shogoyamada.androiddesignsupportlibrary.R;
 
-public class FloatingActionButton extends AppCompatActivity {
+public class FloatingActionButtonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

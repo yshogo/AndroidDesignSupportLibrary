@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         textInputLayput.setOnClickListener((View v) -> {
             next(TextInputLayoutActivity.class);
         });
+
+        Button flatingActionButton = (Button)findViewById(R.id.floating_action_button);
+        flatingActionButton.setOnClickListener((View v) -> {
+            next(FloatingActionButtonActivity.class);
+        });
     }
 
 

@@ -19,7 +19,7 @@
         <activity android:name=".Activitys.TabLayoutActivity" />
         <activity android:name=".Activitys.NavigationViewActivity" />
         <activity android:name=".Activitys.TextInputLayoutActivity" />
-        <activity android:name=".Activitys.FloatingActionButton"></activity>
+        <activity android:name=".Activitys.FloatingActionButtonActivity"></activity>
     </application>
 
 </manifest>
